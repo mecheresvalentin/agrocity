@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.page    { display: none; padding: 0 0.5em;}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+header {
+    background: url('../images/background.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+/*004c9d*/
+
+/* navbar */
+
+.navbar-brand {
+    color: black !important;
+}
+
+.text-blue {
+    color: #007bff !important;
+}
+
+.text-bblue {
+    color: #004c9d !important;
+}
+
+.form-control {
+    height: 65vh !important;
+}
+
+/* end of navbar*/
+
+/* header */
+
+.header-name {
+    font-size: 1.5rem;
+}
+
+.header-age {
+    font-size: 1.3rem;
+}
+
+.header-about {
+    font-size: 1.1rem;
+}
+
+.mb-5px {
+    margin-bottom: 5px !important;
+}
+
+.fas {
+    font-size: 3rem;
+    transition: .2s;
+}
+
+.fas:hover {
+    font-size: 3.5rem;
+}
+
+/* end of header */
+
+.anchor-unstyled:hover {
+    text-decoration: none;
+}
