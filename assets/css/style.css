@@ -79,3 +79,11 @@ header {
 .anchor-unstyled:hover {
     text-decoration: none;
 }
+
+/* @media */
+
+@media (max-width: 918px) {
+    header {
+        background: none;
+    }
+}
